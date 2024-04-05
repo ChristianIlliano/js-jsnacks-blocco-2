@@ -1,8 +1,9 @@
-Fai inserire un numero, che chiameremo N, all’utente.
-Genera N array, ognuno formato da 10 numeri casuali tra 1 e 100.
-Ogni volta che ne crei uno, stampalo a schermo.
+Dare la possibilità di inserire due parole.
+Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
+Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
-1. Chiediamo N all'utente
-2. Generiamo N array
-    generiamo 10 numeri casuali da 1 a 100 con un ciclo for in ognuno degli array
-3. stampiamo N array
+Chiediamo 2 parole all'utente
+
+Creiamo una funzione che capisca se le 2 parole sono lunghe uguali
+    Se una sono lunghe uguali stampale entrambe
+    Altrimenti stampa solo la più lunga

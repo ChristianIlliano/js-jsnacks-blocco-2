@@ -5,13 +5,11 @@
  */
 function generateArray() {
     let nArray = []
-
     for (let i = 0; i < 10; i++) {
         let numberInarray = getRndInteger(1, 100);
 
         nArray.push(numberInarray);
     }
-
     return nArray
  }
 
@@ -26,6 +24,5 @@ function generateArray() {
 function printArray(arrayToPrint) {
    const resultElem = document.getElementById("result")
    console.log(resultElem);
-
    resultElem.innerHTML += `<li> ${arrayToPrint} </li>`;
 }
