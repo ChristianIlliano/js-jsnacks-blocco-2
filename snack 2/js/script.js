@@ -1,5 +1,5 @@
-let string1 = prompt("dimmi una parola")
-let string2 = prompt("dimmi un'altra parola'")
+let userWord1 = prompt("dimmi una parola")
+let userWord2 = prompt("dimmi un'altra parola'")
 
-let longestWord()
+const printWord = longestWord(userWord1, userWord2)
 console.log(longestWord);
